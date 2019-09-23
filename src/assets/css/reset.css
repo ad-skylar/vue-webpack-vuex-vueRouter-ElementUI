@@ -1,0 +1,197 @@
+@charset "utf-8";
+/*=========================Reset_start==========================*/
+body,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,th,td,a,img,span,strong,var,em,input,textarea,select,option{margin: 0; padding: 0;}
+html,body{font-family:"微软雅黑","v",Arail,Tabhoma; font-size: 12px; text-align: left;}
+/* ul{list-style: none;} */
+img{border: 0;}
+input,select,textarea{outline:0;}
+input,select,textarea{border:0;}
+textarea{resize:none;}
+table{border-collapse: collapse; border-spacing: 0;}
+/* th,strong,var,em{font-weight: normal; font-style: normal;} */
+a{text-decoration: none;}
+/*a:link,a:visited,a:hover,a:active{text-decoration:none;} */
+/*==========================Reset_End===========================*/
+a{
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/***********按钮点击清除样式**************/
+button{
+    outline-style: none!important;
+}
+/********清除浮动**********/
+.clearfix{
+	overflow: hidden;
+}
+
+.qcfd:after{
+	display:block;clear:both;content:"";visibility:hidden;height:0
+}
+
+
+
+/********鼠标**********/
+.cursor{
+	cursor: pointer;
+}
+
+/* pre{
+	background: #f6f6f6
+}
+
+ pre code{
+	color:#8492A6;
+	display: block;
+	background: #23241f;
+	font: 16px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	border-radius: 5px;
+	 max-width: 100%;
+	 line-height: 1.5em;
+	 padding: 20px;
+	 overflow-x: auto;
+  } */
+
+
+
+  .view {
+	width: 1100px;
+  margin: 0 auto;
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+	.view {
+	  width: 970px;
+	}
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+	.view {
+	  width: 750px;
+	}
+  }
+  @media (max-width: 768px) {
+	.view {
+	  width: 640px;
+	  padding: 0 20px;
+	}
+  }
+
+
+
+
+  /* 文章页代码高亮 */
+
+
+  /*
+
+Atom One Light by Daniel Gamage
+Original One Light Syntax theme from https://github.com/atom/one-light-syntax
+
+base:    #fafafa
+mono-1:  #383a42
+mono-2:  #686b77
+mono-3:  #a0a1a7
+hue-1:   #0184bb
+hue-2:   #4078f2
+hue-3:   #a626a4
+hue-4:   #50a14f
+hue-5:   #e45649
+hue-5-2: #c91243
+hue-6:   #986801
+hue-6-2: #c18401
+
+*/
+
+/* 主题库
+https://github.com/isagalaev/highlight.js/tree/master/src/styles
+*/
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #383a42;
+    background: #fafafa;
+  }
+  
+  .hljs-comment,
+  .hljs-quote {
+    color: #a0a1a7;
+    font-style: italic;
+  }
+  
+  .hljs-doctag,
+  .hljs-keyword,
+  .hljs-formula {
+    color: #a626a4;
+  }
+  
+  .hljs-section,
+  .hljs-name,
+  .hljs-selector-tag,
+  .hljs-deletion,
+  .hljs-subst {
+    color: #e45649;
+  }
+  
+  .hljs-literal {
+    color: #0184bb;
+  }
+  
+  .hljs-string,
+  .hljs-regexp,
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-meta-string {
+    color: #50a14f;
+  }
+  
+  .hljs-built_in,
+  .hljs-class .hljs-title {
+    color: #c18401;
+  }
+  
+  .hljs-attr,
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-type,
+  .hljs-selector-class,
+  .hljs-selector-attr,
+  .hljs-selector-pseudo,
+  .hljs-number {
+    color: #986801;
+  }
+  
+  .hljs-symbol,
+  .hljs-bullet,
+  .hljs-link,
+  .hljs-meta,
+  .hljs-selector-id,
+  .hljs-title {
+    color: #4078f2;
+  }
+  
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  
+  .hljs-strong {
+    font-weight: bold;
+  }
+  
+  .hljs-link {
+    text-decoration: underline;
+  }
+  li{
+    list-style: none;
+  }
+  
+  /* 编辑器zindex过高挡住了个人中心 */
+  .v-note-wrapper{
+    z-index: 10!important;
+  }
