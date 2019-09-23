@@ -30,7 +30,7 @@ module.exports = {
     assetsPublicPath: '/',
      proxyTable: {
       '/iweb':{
-        target:'http://api.iplanfly.com',
+        target:'******.com',
         changeOrigin:true,
         pathRewrite:{
           '^/iweb':'/iweb'
