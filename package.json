@@ -13,7 +13,7 @@
     "axios": "^0.16.2",
     "element-ui": "^1.4.4",
     "jquery": "^3.2.1",
-    "mavon-editor": "^2.2.9",
+    "mavon-editor": "^2.8.2",
     "moment": "^2.19.1",
     "vue": "^2.4.2",
     "vue-qart": "^2.1.0",
